@@ -83,3 +83,11 @@ Abre VS Code o Jupyter Lab en la carpeta `notebooks/` y ejecuta las celdas orden
 1. **Conservación de Claves Duplicadas:** Se demostró que un documento de identidad repetido con notas o datos divergentes no se elimina automáticamente, ya que requiere verificación previa con la fuente de origen.
 2. **Protección de Datos Académicos:** Se estableció la regla técnica de **no imputar notas académicas** con promedios o medianas sin evidencia sustantiva, marcando valores fuera de rango o erróneos como valores faltantes (`pd.NA`) para preservar la validez del reporte.
 3. **Auditoría de Incidencias:** Se generaron reportes independientes en `outputs/` para auditar exactamente qué filas incumplen las reglas de validez y completitud sin alterar la fuente original.
+
+## Semana 4: Selección, filtrado y lectura crítica de datos con Pandas
+- **Notebook principal:** `notebooks/semana_04_seleccion_filtrado.ipynb`
+- **Dataset de entrada:** `data/processed/seguimiento_academico_semana3_preparado.csv`
+- **Salidas / Evidencias:** 
+  - `outputs/semana4_adso_asistencia_baja_validado.csv`
+  - `outputs/semana4_bitacora_consultas.csv`
+- **Temas aplicados:** Selección por etiquetas y posiciones (`loc`/`iloc`), filtros booleanos con operadores lógicos estrictos (`&`, `|`, `~`), métodos `isin()` y `between()`, validación de nulos y exclusión controlada de claves en conflicto.
